@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const me = {
+        name: "안효준",
+        address: "전남 화순",
+        phoneNum: "010-8000-0000",
+        canWalk: function () {
+          console.log("효준이가 걷는다.");
+        },
+        learning: function (programing) {
+          programing.levelUp();
+        },
+      };
+      const javascript ={
+        level: 1,
+        levelUp : function(){
+            this.level++;
+        },
+        console.log('level')
+      }
+
+      me.learning(javascript);
+      
+    </script>
+  </body>
+</html>

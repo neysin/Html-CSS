@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {}
+
+#myDiv {
+    border: 1px solid red;
+}
+
+p {
+    border: inherit;
+}
+
+.myP {
+    border: 1px solid red;
+}
+
+.myP.myPMore {
+    border: 1px dotted blue;
+    color: white;
+}
